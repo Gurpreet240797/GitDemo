@@ -19,7 +19,7 @@ def main():
 	sum = 0
 	next = 0
 
-	while next<4000000:
+	while next<3000000:
 		next = fibb(first,second)
 		first = second
 		second = next
